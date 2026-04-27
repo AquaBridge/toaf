@@ -1,1 +1,1 @@
-
+const button=document.getElementById("menuButton"),overlay=document.getElementById("overlay");function toggleMenu(open){document.body.classList.toggle("menu-open",open);button?.setAttribute("aria-expanded",String(open))}button?.addEventListener("click",()=>toggleMenu(!document.body.classList.contains("menu-open")));overlay?.addEventListener("click",()=>toggleMenu(false));document.addEventListener("keydown",e=>{if(e.key==="Escape")toggleMenu(false)});
