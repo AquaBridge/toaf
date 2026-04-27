@@ -1,0 +1,8 @@
+title: FastBuilder Wiki
+description: A compact community wiki.
+markdown: kramdown
+permalink: pretty
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
