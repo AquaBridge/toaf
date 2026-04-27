@@ -1,5 +1,7 @@
 title: FastBuilder Wiki
 description: A compact community wiki.
+baseurl: "/taof"
+url: "https://aquabridge.github.io"
 markdown: kramdown
 permalink: pretty
 exclude:
